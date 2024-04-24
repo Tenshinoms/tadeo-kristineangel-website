@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    background-color: seagreen;
+}
+.flex-container > div {
+    background-color: #294B29;
+    color: #DBE7C9;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}

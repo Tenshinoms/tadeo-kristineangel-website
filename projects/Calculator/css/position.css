@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    font-weight: 700;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.static {
+    position: static;
+    background-color: #378ce7;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid darkblue;
+}
+.relative {
+    position: relative;
+    left: 50px;
+    top: 100px;
+    background-color: #378ce7;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid rgb(139, 0, 132);
+}
+.absolute {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    width: auto;
+    height: auto;
+    background-color: #378ce7;
+    color: #fff;
+    padding: 10px;
+    border: 5px solid rgb(0, 139, 93);
+}
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #134375;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 200px;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    background-color: #378ce7;
+    color: #fff;
+    border: 5px solid rgb(160, 30, 30);
+}
