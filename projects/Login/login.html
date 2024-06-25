@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <h1 class="label"> LOGIN FORM</h1>
+    <p id="alert"></p>
+    <br>
+        <table>
+            <tr>
+              <th><label class="label">Username: </label></th>
+              <td><input type="text" name="username" id="username" placeholder="Enter Username"/></td>
+            </tr>
+            <tr>
+                <th><label class="label">Password: </label></th>
+                <td><input type="password" name="pass" id="pass" placeholder="Enter Password"/></td>
+              </tr>
+        </table>
+        <br>
+        <a href="#" class="forgot" onclick="forgot()">Forgot Password</a>
+        <br>
+        <button type="button" value="login" class="button" onclick="login()">LOGIN</button>
+        <br>
+        <p class="reg">Don't have an account? <a href="register.html">Register here</a></p>
+    </div>
+</body>
+</html>
